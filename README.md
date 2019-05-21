@@ -16,6 +16,8 @@ Check out the [post](https://testdriven.io/managing-secrets-with-vault-and-consu
 
 1. You can now interact with both Vault and Consul. View the UIs at [http://localhost:8200/ui](http://localhost:8200/ui) and [http://localhost:8500/ui](http://localhost:8500/ui).
 
+1. Real women (and men) don't click. Practical example of using the CLI to fetch secrets (values and files) for deployment environment values.
+
 ```
 export VAULT_ADDR="http://127.0.0.1:8200"
 vault login # will require (root) token
