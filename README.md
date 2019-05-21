@@ -17,6 +17,8 @@ Check out the [post](https://testdriven.io/managing-secrets-with-vault-and-consu
 1. You can now interact with both Vault and Consul. View the UIs at [http://localhost:8200/ui](http://localhost:8200/ui) and [http://localhost:8500/ui](http://localhost:8500/ui).
 
 ```
+export VAULT_ADDR="http://127.0.0.1:8200"
+vault login # will require (root) token
 vault write secret/test heslo=abc
 vault read secret/test
 vault read -field=heslo secret/test
