@@ -1,6 +1,9 @@
 # Managing Secrets with Vault and Consul
 
-## Want to learn how to build this?
+## What is this good for?
+
+• database credentials, SSH keys, usernames and passwords, AWS IAM credentials, API tokens, Social Security Numbers, credit card numbers
+• vault encrypts values and the storage backend (e.g. consul) already receives encrypted values
 
 Check out the [post](https://testdriven.io/managing-secrets-with-vault-and-consul).
 
